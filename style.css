@@ -78,7 +78,7 @@ h1 {
   color: #555;
 }
 
-.card__info--right .card-btn {
+a.card-btn {
   
   padding: 11px 15px;
   background-image: linear-gradient(to right, #68E4BC 0%, #4AD0D1 99%);
@@ -93,7 +93,7 @@ h1 {
   font-weight: bold;
 }
 
-.card__info--right .card-btn:hover {
+a.card-btn:hover {
   box-shadow: 0 12px 12px -11px #0db4afb8;
   color: floralwhite;
   /* transition: all 0.3s ease-in-out; */
