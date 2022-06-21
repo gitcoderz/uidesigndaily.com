@@ -85,7 +85,7 @@ a {
 a.card-btn {
   display: block;
   padding: 10px 15px;
-  background-image: linear-gradient(to right, #68E4BC 0%, #4AD0D1 99%);
+  background-color: #ddd;
   cursor: pointer;
   text-align: center;
   /* box-shadow: 0 12px 12px -11px #0db4afb8; */
@@ -98,6 +98,7 @@ a.card-btn {
 }
 
 a.card-btn:hover {
+  background-image: linear-gradient(to right, #68E4BC 0%, #4AD0D1 99%);
   box-shadow: 0 12px 12px -11px #0db4afb8;
   color: floralwhite;
   /* transition: all 0.3s ease-in-out; */
