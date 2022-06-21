@@ -78,9 +78,13 @@ h1 {
   color: #555;
 }
 
+a {
+  text-decoration: none;
+}
+
 a.card-btn {
-  
-  padding: 11px 15px;
+  display: block;
+  padding: 10px 15px;
   background-image: linear-gradient(to right, #68E4BC 0%, #4AD0D1 99%);
   cursor: pointer;
   text-align: center;
@@ -90,7 +94,7 @@ a.card-btn {
   border-radius: 5px;
   border: none;
   color: green;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 a.card-btn:hover {
