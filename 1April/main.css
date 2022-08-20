@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+  --color-primary: #F1F1FB;
+  --color-secondary: #EA4C3C;
+  --color-bg: #E8E8FC;
+  --color-font: #393A62;
+  --color-link: #DBA09E;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--color-bg);
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.wrapper {
+  padding-top: 10px;
+  /* margin: 0 auto; */
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(auto-fill, minmax(225px, 1fr)); */
+  gap: 20px;
+  background-color: var(--color-bg);
+  place-items: center;
+}
+
+.nav {
+  border: 1px solid salmon;
+}
+
+.nav ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+.nav .user-acc {
+  padding-bottom: 25px;
+}
+
+/*  Billing content */
+
+.billing-content {
+
+}
+
+.billing-content h1 {
+  margin-bottom: 25px;
+}
+
+/*  footer  */
+footer {
+  margin-top: 20px;
+}
